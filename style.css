@@ -122,3 +122,9 @@ header p a:hover {
     width: 85%;
 }
 
+@media(max-width: 450px) {
+    .container_jogo {
+        width: 250px;
+        height: 250px;
+    }
+}
