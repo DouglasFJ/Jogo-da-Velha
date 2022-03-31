@@ -15,6 +15,25 @@ body {
 }
 
 header {
+    background-color: #2f2f2f;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+header p {
+    font-family: 'Righteous', cursive;
+}
+header p a {
+    color: #00f2fe;
+    text-decoration: none;
+    transition: 0.5s;
+}
+header p a:hover {
+    color: #2d78b9;
+    text-decoration: underline;
+}
+
+.msg {
     font-family: 'Righteous', cursive;
     font-size: 2em;
     position: absolute;
@@ -102,3 +121,4 @@ header {
     height: 85%;
     width: 85%;
 }
+
