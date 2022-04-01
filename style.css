@@ -127,4 +127,7 @@ header p a:hover {
         width: 250px;
         height: 250px;
     }
+    .btn {
+        max-height: 80px;
+    }
 }
